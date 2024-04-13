@@ -1,0 +1,45 @@
+{
+  "name": "midjourney",
+  "version": "1.0.0",
+  "description": "A simple midjourney bot for discord",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run start:bot",
+    "start:bot": "npm run build && node --enable-source-maps dist/index.js",
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brblacky/Midjourney.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brblacky/Midjourney/issues"
+  },
+  "homepage": "https://github.com/brblacky/Midjourney#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.5",
+    "@types/signale": "^1.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "keywords": [],
+  "author": "blacky",
+  "license": "GPL-3.0",
+  "signale": {
+    "displayScope": true,
+    "displayBadge": true,
+    "displayDate": true,
+    "displayFilename": true,
+    "displayLabel": true,
+    "displayTimestamp": true,
+    "underlineLabel": true
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "discord.js": "^14.9.0",
+    "replicate": "^0.12.1",
+    "signale": "^1.4.0",
+    "undici": "^5.22.1"
+  }
+}

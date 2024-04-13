@@ -25,7 +25,7 @@ export default {
     token: "", // Discord Bot Token
     clientId: "1109838882805125190", // Discord Bot Client ID
     color: "#00ff00",
-    replicateToken: "", // Replicate Token from https://replicate.com/signin
+    replicateToken: "25204040", // Replicate Token from https://replicate.com/signin
     model: "stability-ai/stable-diffusion:db21e45d3f7023abc2a46ee38a23973f6dce16bb082a930b0c49861f96d1e5bf" as any
 }
 ```

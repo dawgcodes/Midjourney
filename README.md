@@ -12,7 +12,7 @@
 [x] Download Midjourney
 
 ```bash
-git clone https://github.com/brblacky/Midjourney.git
+git clone https://github.com/dawgcodes/Midjourney.git
 cd Midjourney
 npm install
 ```

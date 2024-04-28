@@ -2,9 +2,7 @@
     "compilerOptions": {
         "target": "es2021",
         "module": "es2022",
-        "lib": [
-            "es2021"
-        ],
+        "lib": ["es2021"],
         "declaration": true,
         "sourceMap": true,
         "outDir": "./dist",
@@ -18,11 +16,6 @@
         "importHelpers": true,
         "forceConsistentCasingInFileNames": true
     },
-    "include": [
-        "src/**/*"
-    ],
-    "exclude": [
-        "dist",
-        "node_modules",
-    ]
+    "include": ["src/**/*"],
+    "exclude": ["dist", "node_modules"]
 }

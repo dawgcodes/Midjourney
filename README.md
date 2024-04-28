@@ -18,7 +18,7 @@ npm install
 ```
 ## Configuration
 
-[x] Edit `config.ts` file
+[x] Edit `.env` file
 
 ```ts
 export default {

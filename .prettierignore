@@ -3,3 +3,5 @@
 /.git
 /dist
 /node_modules
+.eslintcache
+yarn.lock

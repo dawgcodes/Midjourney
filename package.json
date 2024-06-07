@@ -1,12 +1,13 @@
 {
-    "name": "midjourney",
-    "version": "1.1.0",
-    "description": "A simple midjourney bot for discord",
+    "name": "Midjourney",
+    "version": "1.5.3",
+    "description": "A simple Midjourney bot for discord",
     "type": "module",
     "main": "dist/index.js",
     "scripts": {
         "start": "npm run build && node dist/index.js",
-        "clean": "rm -rf dist",
+        "clean:windows": "rmdir /s /q dist",
+        "clean:linux": "rm -rf dist",
         "build": "tsc --project tsconfig.json",
         "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx",
         "lint:fix": "eslint . --fix --cache --ext .js,.jsx,.ts,.tsx",
@@ -22,18 +23,27 @@
     },
     "homepage": "https://github.com/dawgcodes/Midjourney#readme",
     "devDependencies": {
-        "@types/node": "^20.12.7",
+        "@types/node": "^20.13.0",
         "@types/signale": "^1.4.7",
-        "ts-node": "^10.9.2",
-        "@typescript-eslint/eslint-plugin": "^7.7.1",
-        "@typescript-eslint/parser": "^7.7.1",
-        "eslint": "^8.56.0",
+        "@typescript-eslint/eslint-plugin": "^7.11.0",
+        "@typescript-eslint/parser": "^7.11.0",
+        "eslint": "^8.57.0",
         "eslint-plugin-import": "^2.29.1",
-        "eslint-plugin-unicorn": "^52.0.0",
-        "prettier": "^3.2.5"
+        "eslint-plugin-unicorn": "^53.0.0",
+        "prettier": "^3.2.5",
+        "ts-node": "^10.9.2"
     },
-    "keywords": [],
-    "author": "dawgcodes",
+    "keywords": [
+        "discord",
+        "gemini",
+        "bot",
+        "ai",
+        "generative",
+        "canvas",
+        "typescript",
+        "replicate"
+    ],
+    "author": "LucasB25",
     "license": "GPL-3.0",
     "signale": {
         "displayScope": true,
@@ -45,11 +55,12 @@
         "underlineLabel": true
     },
     "dependencies": {
-        "canvas": "^2.11.2",
-        "discord.js": "^14.14.1",
-        "replicate": "^0.29.1",
+        "@google/generative-ai": "^0.12.0",
+        "@napi-rs/canvas": "^0.1.52",
+        "discord.js": "^14.15.2",
+        "dotenv": "^16.4.5",
+        "replicate": "^0.30.1",
         "signale": "^1.4.0",
-        "undici": "^6.14.0",
-        "dotenv": "^16.4.5"
+        "undici": "^6.18.2"
     }
 }

@@ -1,5 +1,5 @@
 # Midjourney
- A Discord Bot that can generate text based on a given prompt using [Replicate](https://replicate.com/)
+Midjourney is a versatile Discord bot that now also offers text-to-text capabilities through its integration with Google Gemini, an advanced text generation model platform. It automatically responds to specific commands on Discord, generating text or images based on the nature of users' requests.
 
 ## Installation
 

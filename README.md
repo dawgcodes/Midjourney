@@ -11,10 +11,20 @@ Midjourney is a versatile Discord bot that now also offers text-to-text capabili
 
 [x] Download Midjourney
 
-2. change the directory to AikouAI
+
+## 🚀 Installation from source
+
+1. Clone the Midjourney repository:
 
 ```bash
-cd AikouAI
+git clone https://github.com/dawgcodes/Midjourney.git
+```
+
+
+2. change the directory to Midjourney
+
+```bash
+cd Midjourney
 ```
 
 3. Install the required packages:

@@ -70,7 +70,7 @@ Thank you for your interest in contributing to AikouAI! Here are some guidelines
 4. Write and run tests for your code.
 5. Submit a pull request with your changes.
 
-Your contribution will be reviewed by the project maintainers, and any necessary feedback or changes will be discussed with you. We appreciate your help in making AikouAI better!
+Your contribution will be reviewed by the project maintainers, and any necessary feedback or changes will be discussed with you. We appreciate your help in making Midjourney better!
 
 ## 👥 Contributors
 

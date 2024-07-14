@@ -11,32 +11,65 @@ Midjourney is a versatile Discord bot that now also offers text-to-text capabili
 
 [x] Download Midjourney
 
+2. change the directory to AikouAI
+
 ```bash
-git clone https://github.com/dawgcodes/Midjourney.git
-cd Midjourney
-npm install
+cd AikouAI
 ```
-## Configuration
 
-[x] Edit `.env` file
+3. Install the required packages:
 
-```ts
-export default {
-    token: "", // Discord Bot Token
-    clientId: "1109838882805125190", // Discord Bot Client ID
-    color: "#00ff00",
-    replicateToken: "25204040", // Replicate Token from https://replicate.com/signin
-    model: "stability-ai/stable-diffusion:db21e45d3f7023abc2a46ee38a23973f6dce16bb082a930b0c49861f96d1e5bf" as any
-}
+```bash
+npm i
+or
+yarn i
 ```
-## Usage
+
+4. Set up your environment variables:
+
+Create a `.env` file in the root directory of your project with the following variables:
+or you can use the [.env.example](https://raw.githubusercontent.com/LucasB25/AikouAI/main/.env.example) file
+
+```bash
+TOKEN= #Discord Bot Token
+CLIENT_ID= #Discord Bot Client ID
+ACTIVITY=/help
+
+#For REPLICATE
+REPLICATE_TOKEN= #Replicate Token from https://replicate.com/signin
+REPLICATE_MODEL=bytedance/sdxl-lightning-4step:727e49a643e999d602a896c774a0658ffefea21465756a6ce24b7ea4165eba6a
+
+#For GEMINI
+GEMINI_KEY= #GEMINI key from https://makersuite.google.com/
+GEMINI_MODEL=gemini-1.5-flash-latest
+```
+
+5. Run the bot:
 
 ```bash
 npm start
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## 📜 Contributing
+
+Thank you for your interest in contributing to AikouAI! Here are some guidelines to follow when contributing:
+
+1. Fork the repository and create a new branch for your feature or bug fix.
+2. Write clean and concise code that follows the established coding style.
+3. Create detailed and thorough documentation for any new features or changes.
+4. Write and run tests for your code.
+5. Submit a pull request with your changes.
+
+Your contribution will be reviewed by the project maintainers, and any necessary feedback or changes will be discussed with you. We appreciate your help in making AikouAI better!
+
+## 👥 Contributors
+
+Thanks goes to these wonderful people :
+
+<a href="https://github.com/dawgcodes/Midjourney/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dawgcoes/Midjourney" />
+</a>
+
 
 
 ## License

@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/dawgcodes/Midjourney#readme",
     "devDependencies": {
-        "@types/node": "^20.13.0",
+        "@types/node": "^22.0.0",
         "@types/signale": "^1.4.7",
         "@typescript-eslint/eslint-plugin": "^8.0.0",
         "@typescript-eslint/parser": "^8.0.0",

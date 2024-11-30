@@ -61,6 +61,6 @@
         "dotenv": "^16.4.5",
         "replicate": "^1.0.0",
         "signale": "^1.4.0",
-        "undici": "^6.18.2"
+        "undici": "^7.0.0"
     }
 }

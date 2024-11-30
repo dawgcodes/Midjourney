@@ -12,7 +12,7 @@ export default class ClientReady extends Event {
         this.client.logger.info(`Connected to Discord as ${this.client.user?.tag}!`);
 
         this.client.user?.setActivity({
-            name: `${this.client.config.activity} - by LucasB25`,
+            name: `${this.client.config.activity} - by todawg`,
             type: 1,
         });
     }
